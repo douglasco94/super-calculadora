@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Trabalho Prático IGTI</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Super Calculadora</h1>
+      <div class="flexBox">
+        <label for="inputOne">
+          Primeiro Número (A):<input
+            class="mainInput"
+            id="inputA"
+            type="number"
+            onchange="calc()"
+            placeholder="Digite um Número"
+        /></label>
+        <label>
+          Primeiro Número (B):<input
+            class="mainInput"
+            id="inputB"
+            type="number"
+            onchange="calc()"
+            placeholder="Digite um Número"
+        /></label>
+      </div>
+      <h1>Cálculos</h1>
+      <div class="flexBox">
+        <label>
+          Soma (A + B):<input
+            id="soma"
+            type="number"
+            placeholder="Soma dos Números"
+            disabled
+        /></label>
+        <label>
+          Subtração (A - B):<input
+            id="subtracaoAB"
+            type="number"
+            placeholder="Subtração dos Números"
+            disabled
+        /></label>
+        <label>
+          Subtração (B - A):<input
+            id="subtracaoBA"
+            type="number"
+            placeholder="Subtração dos Números"
+            disabled
+        /></label>
+        <label>
+          Multiplicação (A X B):<input
+            id="multiplicacao"
+            type="number"
+            placeholder="Multiplicação dos Números"
+            disabled
+        /></label>
+        <label>
+          Divisão (A / B):<input
+            id="divisaoAB"
+            type="text"
+            placeholder="Divisão dos Números"
+            disabled
+        /></label>
+        <label>
+          Divisão (B / A):<input
+            id="divisaoBA"
+            type="text"
+            placeholder="Divisão dos Números"
+            disabled
+        /></label>
+        <label>
+          Quadrado de a (a*a):<input
+            id="quadradoA"
+            type="number"
+            placeholder="Quadrado de A"
+            disabled
+        /></label>
+        <label>
+          Quadrado de b (b*b):<input
+            id="quadradoB"
+            type="number"
+            placeholder="Quadrado de B"
+            disabled
+        /></label>
+        <label>
+          Divisores Inteiros de a:<input
+            id="divisoresA"
+            type="text"
+            placeholder="Divisores de A"
+            disabled
+        /></label>
+        <label>
+          Divisores Inteiros de b:<input
+            id="divisoresB"
+            type="text"
+            placeholder="Divisores de B"
+            disabled
+        /></label>
+        <label>
+          Fatorial de a (a!):<input
+            id="fatorialA"
+            type="text"
+            placeholder="Fatorial de A"
+            disabled
+        /></label>
+        <label>
+          Fatorial de b (b!):<input
+            id="fatorialB"
+            type="text"
+            placeholder="Fatorial de B"
+            disabled
+        /></label>
+      </div>
+      <div class="flexBox">
+        <p>
+          Trabalho Prático desenvolvido durante o Bootcamp de Frontend do IGTI
+        </p>
+      </div>
+    </div>
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
